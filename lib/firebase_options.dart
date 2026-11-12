@@ -50,19 +50,20 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCiUfH6wll1WrzTvhfBtSA5C_jXK661DIw',
-    appId: '1:847355051630:web:fb096cf39b9c97de28f07f',
-    messagingSenderId: '847355051630',
-    projectId: 'food-rescue-app-ea651',
-    authDomain: 'food-rescue-app-ea651.firebaseapp.com',
-    storageBucket: 'food-rescue-app-ea651.firebasestorage.app',
+    apiKey: 'AIzaSyDx9C54AppSlfwTXKnOj1s2WY1xlCdSk4Y',
+    appId: '1:735637597004:web:f8573044c86056e2b8bde9',
+    messagingSenderId: '735637597004',
+    projectId: 'fitcipline-39bd0',
+    authDomain: 'fitcipline-39bd0.firebaseapp.com',
+    storageBucket: 'fitcipline-39bd0.firebasestorage.app',
+    measurementId: 'G-5CBPYWWPY4',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAWkHp2HWG671WoIMt4BsbV_NlBQ04YPx8',
-    appId: '1:847355051630:android:bd7da5987fba2efc28f07f',
-    messagingSenderId: '847355051630',
-    projectId: 'food-rescue-app-ea651',
-    storageBucket: 'food-rescue-app-ea651.firebasestorage.app',
+    apiKey: 'AIzaSyA9CpsNu2wh2NHCtqUrtt9LqMXBCrDgxqM',
+    appId: '1:735637597004:android:7f6fcf249cd3c008b8bde9',
+    messagingSenderId: '735637597004',
+    projectId: 'fitcipline-39bd0',
+    storageBucket: 'fitcipline-39bd0.firebasestorage.app',
   );
 }

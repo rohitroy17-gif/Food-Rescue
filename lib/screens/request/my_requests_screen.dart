@@ -156,12 +156,15 @@ class _MyRequestsScreenState extends State<MyRequestsScreen> {
         }
 
         if (snapshot.hasError) {
-          return const Center(
-            child: Text(
-              'Something went wrong. Please try again.',
-            ),
-          );
-        }
+  debugPrint('MY REQUESTS ERROR: ${snapshot.error}');
+
+  return Center(
+    child: Text(
+      'Error: ${snapshot.error}',
+      textAlign: TextAlign.center,
+    ),
+  );
+}
 
         final requests = snapshot.data ?? [];
 
